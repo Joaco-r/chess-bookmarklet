@@ -3,7 +3,7 @@
     board.style.backgroundImage = "url('https://assets-themes.chess.com/image/jz5it/200.jpg')";
     let whiteKing  = document.querySelector('#board-play-computer .piece.wk');
     let whiteQueen = document.querySelector('#board-play-computer .piece.wq');
-    let whiteBishop = document.querySelector('#board-play-computer .piece.wb');
+    let whiteBishop = document.querySelector('#board-play-computer .piece.wb, #board-play-computer .promotion-piece.wk');
     let whiteKnight = document.querySelector('#board-play-computer .piece.wn');
     let whiterook = document.querySelector('#board-play-computer .piece.wr');
     let whitePawn = document.querySelector('#board-play-computer .piece.wp');
