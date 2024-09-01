@@ -1,5 +1,9 @@
 (function(){
     const plantillaDeEstilo = document.getElementById('board-styles-play-computer');
-    plantillaDeEstilo.innerHTML = fetch('https://joaco-r.github.io/chess-bookmarklet/tableroSchool.html').text();
+    fetch('https://joaco-r.github.io/chess-bookmarklet/tableroSchool.html')
+    .then(response => response.text())
+    .then(data =>{
+        plantillaDeEstilo.innerHTML = data;
+    });
     
 })();
